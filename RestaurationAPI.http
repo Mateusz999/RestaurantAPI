@@ -1,0 +1,8 @@
+@RestaurationAPI_HostAddress = http://localhost:5218
+
+GET {{RestaurationAPI_HostAddress}}/weatherforecast/currentDay/123?take=590
+Accept: application/json
+
+
+
+###
