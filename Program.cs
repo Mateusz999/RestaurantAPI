@@ -20,6 +20,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 // 1. Rejestracja serwisów w DI
 builder.Services.AddValidatorsFromAssemblyContaining<RegisterUserDtoValidator>(); // Rejestracja wszystkich walidatorów w assembly
+builder.Services.AddValidatorsFromAssemblyContaining<RestaurantQueryValidator>();
 
 // autentykacja i wczytanie z appsetting.json
 var authenticationsSetting = new AuthenticationSettings();
@@ -86,7 +87,21 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer(); 
 builder.Services.AddAutoMapper(typeof(RestaurantMappingProfile).Assembly); // Dodanie serwisów AutoMapper do kontenera zależności
 
+var allowedOrigins = builder.Configuration
+    .GetSection("AllowedOrigins")
+    .Get<string[]>();
+
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("FrontEndClient", policy =>
+    {
+        policy.WithOrigins(allowedOrigins)
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
 var app = builder.Build();
+app.UseCors("FronFrontEndClient");
 
 // 2. Seedowanie danych
 using (var scope = app.Services.CreateScope())

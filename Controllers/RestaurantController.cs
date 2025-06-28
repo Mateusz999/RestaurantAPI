@@ -59,10 +59,13 @@ namespace RestaurationAPI.Controllers
 
 
         [HttpGet]
-        [Authorize(Policy = "AtleastCreatedTwoRestaurant")]
-       public ActionResult<IEnumerable<RestaurantDto>> GetAll()
+        // [Authorize(Policy = "AtleastCreatedTwoRestaurant")]
+        [AllowAnonymous]
+       public ActionResult<IEnumerable<RestaurantDto>> GetAll([FromQuery]RestaurantQuery query)
         {
-            var restaurantDtos = _restaurantService.GetAll();
+
+
+            var restaurantDtos = _restaurantService.GetAll(query);
 
 
             return Ok(restaurantDtos);

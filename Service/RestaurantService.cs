@@ -5,6 +5,7 @@ using RestaurationAPI.Authorization;
 using RestaurationAPI.Entities;
 using RestaurationAPI.Exceptions;
 using RestaurationAPI.Models;
+using System.Linq.Expressions;
 using System.Security.Claims;
 
 namespace RestaurationAPI.Service
@@ -105,16 +106,43 @@ namespace RestaurationAPI.Service
         }
 
 
-        public IEnumerable<RestaurantDto> GetAll()
+        public PagedResult<RestaurantDto> GetAll(RestaurantQuery query)
         {
-            var resturants = _context
-                .Restaurants
+
+
+            var baseQuery = _context.Restaurants
                 .Include(r => r.Address)
                 .Include(r => r.Dishes)
+                .Where(r => query.SearchPhraze == null || r.Name.ToLower().Contains(query.SearchPhraze.ToLower()) ||
+                            r.Description.ToLower().Contains(query.SearchPhraze.ToLower()));
+
+            if (!string.IsNullOrEmpty(query.SortBy))
+            {
+
+                var columnSelector = new Dictionary<string, Expression<Func<Restaurant, Object>>>{
+                    { nameof(Restaurant.Name), r=> r.Name },
+                    { nameof(Restaurant.Description), r=> r.Description },
+                    { nameof(Restaurant.Category), r=> r.Category }
+                };
+
+                var selectedColumn = columnSelector[query.SortBy];
+
+                baseQuery = query.SortDirection == SortDirection.ASC?
+                    baseQuery.OrderBy(selectedColumn)
+                    :baseQuery.OrderByDescending(selectedColumn);
+            }
+
+            var resturants =  baseQuery
+                .Skip(query.pageSize * (query.pageNumber - 1 ))
+                .Take(query.pageSize)
                 .ToList();
 
+            var totalItemsCount = baseQuery.Count();
+
+
             var restaurantDtos = _mapper.Map<List<RestaurantDto>>(resturants);
-            return restaurantDtos;
+            var result = new PagedResult<RestaurantDto>(restaurantDtos, totalItemsCount, query.pageSize,query.pageNumber);
+            return result;
         }
 
         public int Create(CreateRestaurantDto dto)

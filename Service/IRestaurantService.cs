@@ -6,7 +6,7 @@ namespace RestaurationAPI.Service
     public interface IRestaurantService
     {
         int Create(CreateRestaurantDto dto);
-        IEnumerable<RestaurantDto> GetAll();
+        PagedResult<RestaurantDto> GetAll(RestaurantQuery query);
         RestaurantDto GetById(int idx);
 
         void Delete(int idx);
@@ -14,4 +14,3 @@ namespace RestaurationAPI.Service
         void Modify(int idx, ModifyRestaurantDto dto);
     }
 }// test
-}

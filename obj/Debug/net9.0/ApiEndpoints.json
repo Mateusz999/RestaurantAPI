@@ -54,7 +54,33 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "SearchPhraze",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageNumber",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "pageSize",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortBy",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "SortDirection",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": [
       {
         "Type": "System.Collections.Generic.IEnumerable\u00601[[RestaurationAPI.Models.RestaurantDto, RestaurationAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
@@ -66,6 +92,16 @@
         "StatusCode": 200
       }
     ]
+  },
+  {
+    "ContainingType": "RestaurationAPI.Controllers.RestaurantController",
+    "Method": "Createsome",
+    "RelativePath": "api/restaurant",
+    "HttpMethod": "",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   },
   {
     "ContainingType": "RestaurationAPI.Controllers.RestaurantController",
