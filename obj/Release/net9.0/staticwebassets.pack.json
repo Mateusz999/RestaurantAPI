@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\projekty\\NET\\RestaurationAPI\\wwwroot\\sample-file.txt",
+      "PackagePath": "staticwebassets\\sample-file.txt"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.RestaurationAPI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.RestaurationAPI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.build.RestaurationAPI.props",
+      "PackagePath": "build\\RestaurationAPI.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.RestaurationAPI.props",
+      "PackagePath": "buildMultiTargeting\\RestaurationAPI.props"
+    },
+    {
+      "Id": "obj\\Release\\net9.0\\staticwebassets\\msbuild.buildTransitive.RestaurationAPI.props",
+      "PackagePath": "buildTransitive\\RestaurationAPI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

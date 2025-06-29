@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "lRBfMqVjH1c=",
+  "dgSpecHash": "b+jPiRhPMgw=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\RestaurationAPI.csproj",
+  "projectFilePath": "C:\\projekty\\NET\\RestaurationAPI\\RestaurationAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mateu\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

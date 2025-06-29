@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "E9miqk9o/XY7bCmNOaKrw1YgUnCmDNP8YztXm6C9p1A=",
+  "Hash": "VKoDQV9l+c7QX872daTfTxddx8SFI9rdyHiW8AhQYmc=",
   "Source": "RestaurationAPI",
   "BasePath": "_content/RestaurationAPI",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "RestaurationAPI\\wwwroot",
       "Source": "RestaurationAPI",
-      "ContentRoot": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Projekty\\NET\\RestaurationAPI\\wwwroot\\",
       "BasePath": "_content/RestaurationAPI",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\570h7q3dbk-a0f4fvdpx4.gz",
+      "Identity": "C:\\Projekty\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\570h7q3dbk-a0f4fvdpx4.gz",
       "SourceId": "RestaurationAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "ContentRoot": "C:\\Projekty\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/RestaurationAPI",
       "RelativePath": "sample-file#[.{fingerprint=a0f4fvdpx4}]?.txt.gz",
       "AssetKind": "All",
@@ -28,20 +28,20 @@
       "AssetRole": "Alternative",
       "AssetMergeBehavior": "",
       "AssetMergeSource": "",
-      "RelatedAsset": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\wwwroot\\sample-file.txt",
+      "RelatedAsset": "C:\\Projekty\\NET\\RestaurationAPI\\wwwroot\\sample-file.txt",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "Fingerprint": "sixf6z29bk",
       "Integrity": "jBb9IXeKtWfl+8bPgAgdANxDQTWMIl1mQ7eJmhrEbsc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\wwwroot\\sample-file.txt"
+      "OriginalItemSpec": "C:\\Projekty\\NET\\RestaurationAPI\\wwwroot\\sample-file.txt"
     },
     {
-      "Identity": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\wwwroot\\sample-file.txt",
+      "Identity": "C:\\Projekty\\NET\\RestaurationAPI\\wwwroot\\sample-file.txt",
       "SourceId": "RestaurationAPI",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\wwwroot\\",
+      "ContentRoot": "C:\\Projekty\\NET\\RestaurationAPI\\wwwroot\\",
       "BasePath": "_content/RestaurationAPI",
       "RelativePath": "sample-file#[.{fingerprint}]?.txt",
       "AssetKind": "All",
@@ -62,7 +62,7 @@
   "Endpoints": [
     {
       "Route": "sample-file.a0f4fvdpx4.txt",
-      "AssetFile": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\570h7q3dbk-a0f4fvdpx4.gz",
+      "AssetFile": "C:\\Projekty\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\570h7q3dbk-a0f4fvdpx4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -125,7 +125,7 @@
     },
     {
       "Route": "sample-file.a0f4fvdpx4.txt",
-      "AssetFile": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\wwwroot\\sample-file.txt",
+      "AssetFile": "C:\\Projekty\\NET\\RestaurationAPI\\wwwroot\\sample-file.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -170,7 +170,7 @@
     },
     {
       "Route": "sample-file.a0f4fvdpx4.txt.gz",
-      "AssetFile": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\570h7q3dbk-a0f4fvdpx4.gz",
+      "AssetFile": "C:\\Projekty\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\570h7q3dbk-a0f4fvdpx4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -223,7 +223,7 @@
     },
     {
       "Route": "sample-file.txt",
-      "AssetFile": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\570h7q3dbk-a0f4fvdpx4.gz",
+      "AssetFile": "C:\\Projekty\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\570h7q3dbk-a0f4fvdpx4.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
@@ -278,7 +278,7 @@
     },
     {
       "Route": "sample-file.txt",
-      "AssetFile": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\wwwroot\\sample-file.txt",
+      "AssetFile": "C:\\Projekty\\NET\\RestaurationAPI\\wwwroot\\sample-file.txt",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -315,7 +315,7 @@
     },
     {
       "Route": "sample-file.txt.gz",
-      "AssetFile": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\570h7q3dbk-a0f4fvdpx4.gz",
+      "AssetFile": "C:\\Projekty\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\570h7q3dbk-a0f4fvdpx4.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {

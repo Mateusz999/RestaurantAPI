@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\RestaurationAPI.csproj": {}
+    "C:\\projekty\\NET\\RestaurationAPI\\RestaurationAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\RestaurationAPI.csproj": {
+    "C:\\projekty\\NET\\RestaurationAPI\\RestaurationAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\RestaurationAPI.csproj",
+        "projectUniqueName": "C:\\projekty\\NET\\RestaurationAPI\\RestaurationAPI.csproj",
         "projectName": "RestaurationAPI",
-        "projectPath": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\RestaurationAPI.csproj",
+        "projectPath": "C:\\projekty\\NET\\RestaurationAPI\\RestaurationAPI.csproj",
         "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\obj\\",
+        "outputPath": "C:\\projekty\\NET\\RestaurationAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -4791,11 +4791,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\RestaurationAPI.csproj",
+      "projectUniqueName": "C:\\Projekty\\NET\\RestaurationAPI\\RestaurationAPI.csproj",
       "projectName": "RestaurationAPI",
-      "projectPath": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\RestaurationAPI.csproj",
+      "projectPath": "C:\\Projekty\\NET\\RestaurationAPI\\RestaurationAPI.csproj",
       "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\obj\\",
+      "outputPath": "C:\\Projekty\\NET\\RestaurationAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -105,7 +105,7 @@ var app = builder.Build();
 app.UseResponseCaching();
 app.UseStaticFiles(); // middleware plików statycznych msc.aspnetcore.staticfile    
 
-app.UseCors("FronFrontEndClient");
+app.UseCors("FrontEndClient");
 
 // 2. Seedowanie danych
 using (var scope = app.Services.CreateScope())
@@ -114,15 +114,13 @@ using (var scope = app.Services.CreateScope())
     seeder.Seed();
 }
 
-// 3. Middleware
-if (app.Environment.IsDevelopment())
-{
+
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
         c.SwaggerEndpoint("/swagger/v1/swagger.json", "Restaurant API V1");
+        c.RoutePrefix = "swagger";
     });
-}
 
 // Middleware na samym początku
 // Middleware na samym początku

@@ -1,0 +1,16 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/RestaurationAPI/sample-file.a0f4fvdpx4.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sample-file.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"a0f4fvdpx4"},{"Name":"integrity","Value":"sha256-\u002Bn\u002BGy87R1romiDHfkU5zDaIB0b2Z2bhZeMufR1TORnA="},{"Name":"label","Value":"_content/RestaurationAPI/sample-file.txt"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"66"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022\u002Bn\u002BGy87R1romiDHfkU5zDaIB0b2Z2bhZeMufR1TORnA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 29 Jun 2025 09:44:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/RestaurationAPI/sample-file.txt">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\sample-file.txt'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-\u002Bn\u002BGy87R1romiDHfkU5zDaIB0b2Z2bhZeMufR1TORnA="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"66"},{"Name":"Content-Type","Value":"text/plain"},{"Name":"ETag","Value":"\u0022\u002Bn\u002BGy87R1romiDHfkU5zDaIB0b2Z2bhZeMufR1TORnA=\u0022"},{"Name":"Last-Modified","Value":"Sun, 29 Jun 2025 09:44:39 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+  </ItemGroup>
+</Project>

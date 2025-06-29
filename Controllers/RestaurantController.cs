@@ -80,9 +80,5 @@ namespace RestaurationAPI.Controllers
             return Ok(restaurant);
         }
 
-        public ActionResult Createsome()
-        {
-            return Ok();
-        }
     }
 }

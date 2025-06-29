@@ -1,2 +1,2 @@
-C:\Users\mateu\Desktop\NET\RestaurationAPI\wwwroot\sample-file.txt
+C:\Projekty\NET\RestaurationAPI\wwwroot\sample-file.txt
 wwwroot\sample-file.txt
