@@ -149,3 +149,5 @@ C:\Users\mateu\Desktop\NET\RestaurationAPI\bin\Debug\net9.0\FluentValidation.Asp
 C:\Users\mateu\Desktop\NET\RestaurationAPI\bin\Debug\net9.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Users\mateu\Desktop\NET\RestaurationAPI\bin\Debug\net9.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\mateu\Desktop\NET\RestaurationAPI\obj\Debug\net9.0\RestaurationAPI.sourcelink.json
+C:\Users\mateu\Desktop\NET\RestaurationAPI\bin\Debug\net9.0\RestaurationAPI.staticwebassets.runtime.json
+C:\Users\mateu\Desktop\NET\RestaurationAPI\obj\Debug\net9.0\compressed\570h7q3dbk-a0f4fvdpx4.gz

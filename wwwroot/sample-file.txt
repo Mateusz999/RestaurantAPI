@@ -1,0 +1,1 @@
+Przyk³adowy plik, który jest stworzony do nauki serwowania danych.

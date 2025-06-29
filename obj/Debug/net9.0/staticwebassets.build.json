@@ -1,12 +1,362 @@
 {
   "Version": 1,
-  "Hash": "bBMLQL7fD2tak5vEEDWJ6EPINIA1dq7UCrORze/NUNg=",
+  "Hash": "E9miqk9o/XY7bCmNOaKrw1YgUnCmDNP8YztXm6C9p1A=",
   "Source": "RestaurationAPI",
   "BasePath": "_content/RestaurationAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": [],
-  "Endpoints": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "RestaurationAPI\\wwwroot",
+      "Source": "RestaurationAPI",
+      "ContentRoot": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\wwwroot\\",
+      "BasePath": "_content/RestaurationAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\570h7q3dbk-a0f4fvdpx4.gz",
+      "SourceId": "RestaurationAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/RestaurationAPI",
+      "RelativePath": "sample-file#[.{fingerprint=a0f4fvdpx4}]?.txt.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\wwwroot\\sample-file.txt",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "sixf6z29bk",
+      "Integrity": "jBb9IXeKtWfl+8bPgAgdANxDQTWMIl1mQ7eJmhrEbsc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\wwwroot\\sample-file.txt"
+    },
+    {
+      "Identity": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\wwwroot\\sample-file.txt",
+      "SourceId": "RestaurationAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\wwwroot\\",
+      "BasePath": "_content/RestaurationAPI",
+      "RelativePath": "sample-file#[.{fingerprint}]?.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "a0f4fvdpx4",
+      "Integrity": "+n+Gy87R1romiDHfkU5zDaIB0b2Z2bhZeMufR1TORnA=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\sample-file.txt"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "sample-file.a0f4fvdpx4.txt",
+      "AssetFile": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\570h7q3dbk-a0f4fvdpx4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.011764705882"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jBb9IXeKtWfl+8bPgAgdANxDQTWMIl1mQ7eJmhrEbsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 09:44:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+n+Gy87R1romiDHfkU5zDaIB0b2Z2bhZeMufR1TORnA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a0f4fvdpx4"
+        },
+        {
+          "Name": "label",
+          "Value": "sample-file.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+n+Gy87R1romiDHfkU5zDaIB0b2Z2bhZeMufR1TORnA="
+        }
+      ]
+    },
+    {
+      "Route": "sample-file.a0f4fvdpx4.txt",
+      "AssetFile": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\wwwroot\\sample-file.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+n+Gy87R1romiDHfkU5zDaIB0b2Z2bhZeMufR1TORnA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 09:44:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a0f4fvdpx4"
+        },
+        {
+          "Name": "label",
+          "Value": "sample-file.txt"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-+n+Gy87R1romiDHfkU5zDaIB0b2Z2bhZeMufR1TORnA="
+        }
+      ]
+    },
+    {
+      "Route": "sample-file.a0f4fvdpx4.txt.gz",
+      "AssetFile": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\570h7q3dbk-a0f4fvdpx4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jBb9IXeKtWfl+8bPgAgdANxDQTWMIl1mQ7eJmhrEbsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 09:44:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "a0f4fvdpx4"
+        },
+        {
+          "Name": "label",
+          "Value": "sample-file.txt.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-jBb9IXeKtWfl+8bPgAgdANxDQTWMIl1mQ7eJmhrEbsc="
+        }
+      ]
+    },
+    {
+      "Route": "sample-file.txt",
+      "AssetFile": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\570h7q3dbk-a0f4fvdpx4.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.011764705882"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jBb9IXeKtWfl+8bPgAgdANxDQTWMIl1mQ7eJmhrEbsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 09:44:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"+n+Gy87R1romiDHfkU5zDaIB0b2Z2bhZeMufR1TORnA=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+n+Gy87R1romiDHfkU5zDaIB0b2Z2bhZeMufR1TORnA="
+        }
+      ]
+    },
+    {
+      "Route": "sample-file.txt",
+      "AssetFile": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\wwwroot\\sample-file.txt",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "66"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"+n+Gy87R1romiDHfkU5zDaIB0b2Z2bhZeMufR1TORnA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 09:44:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-+n+Gy87R1romiDHfkU5zDaIB0b2Z2bhZeMufR1TORnA="
+        }
+      ]
+    },
+    {
+      "Route": "sample-file.txt.gz",
+      "AssetFile": "C:\\Users\\mateu\\Desktop\\NET\\RestaurationAPI\\obj\\Debug\\net9.0\\compressed\\570h7q3dbk-a0f4fvdpx4.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "84"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/plain"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"jBb9IXeKtWfl+8bPgAgdANxDQTWMIl1mQ7eJmhrEbsc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 29 Jun 2025 09:44:39 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-jBb9IXeKtWfl+8bPgAgdANxDQTWMIl1mQ7eJmhrEbsc="
+        }
+      ]
+    }
+  ]
 }

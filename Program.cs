@@ -101,6 +101,10 @@ builder.Services.AddCors(options =>
     });
 });
 var app = builder.Build();
+
+app.UseResponseCaching();
+app.UseStaticFiles(); // middleware plików statycznych msc.aspnetcore.staticfile    
+
 app.UseCors("FronFrontEndClient");
 
 // 2. Seedowanie danych
@@ -124,7 +128,6 @@ if (app.Environment.IsDevelopment())
 // Middleware na samym początku
 app.UseMiddleware<ErrorHandlingMiddleware>();
 app.UseMiddleware<RequestTimeMiddleware>();
-
 // 1. Ustawienie autentykacji (sprawdzanie tokenu)
 app.UseAuthentication();
 
